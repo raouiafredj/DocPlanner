@@ -1,0 +1,83 @@
+.para{
+
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-size: 1.1em;
+    
+
+
+  }
+  .para h1{
+
+       color: cadetblue;
+       font-size: 1.5em;
+
+  }
+
+
+  .imgs1{
+
+   
+    padding: 0px;
+    margin: 50px;
+      display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  
+  flex-wrap: wrap;
+      
+  
+  }
+
+  .imgs2{
+
+   
+    padding: 0px;
+    margin: 50px;
+      display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  
+  flex-wrap: wrap;
+      
+  
+  }
+
+  .shadow{cursor: pointer;}
+  .shadow:hover{box-shadow: -9px 4px 34px -17px rgba(0,0,0,0.75);
+  }
+.inp-warsaw{
+    display: block;
+    border: none;
+    overflow: hidden;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+             }
+  .btn_warsaw{
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+    .btn{
+        display:block;
+         position:relative;
+       
+         border:none;
+         width:111px;
+         height:32px;
+         background-color: cornflowerblue;
+         color: #ddd;
+        
+       cursor: pointer;
+
+
+
+       }
+
+      

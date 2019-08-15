@@ -1,0 +1,87 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-justify:justify;
+    }
+    
+    /*enlever les puces */
+    
+    .menu{
+    
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    }
+    /*ajouter couleur de fond pour ellement nav */
+    
+    
+    /*enlever le trait de soulignement de nos liens et changer la couleur du texte de ceux-ci afin que tout devienne lisible.*/
+    .menu>li>a{
+    
+    text-decoration: aquamarine;
+    justify-content: space-between;
+    
+    
+    
+    }
+    .menu{display: flex;
+        
+    }
+    .title_principale{
+        height: 65px;
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    .menu>li{
+        margin: 0 20px;
+         list-style-type:none;
+        }
+    
+        .banniere_image{
+
+            height: 67px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+              }
+            
+              .banniere_description{
+            
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                color: aquamarine;
+            
+            
+              }
+
+              .paragraphe{
+
+                margin: 10px;
+              
+                overflow: hidden;
+                display:flex;
+                width: 80%;
+                padding: 60px;
+
+              }
+              
+              .parag{
+
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 1.1em;
+                word-wrap: break-word;
+                margin: auto;
+                padding:30px;
+                display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: grey;
+            
+              }     

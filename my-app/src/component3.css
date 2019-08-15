@@ -1,0 +1,43 @@
+.component2{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+
+.menu1{
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    } 
+  .menu_1>li>a{
+
+    text-decoration: aquamarine;
+    justify-content: space-between;
+    
+    
+    
+    }
+    .menu1{display: flex;
+        
+    }
+    .menu_1{
+        height: 65px;
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0px;
+    padding: 50px;
+    
+    }
+    .menu_1>li{
+        margin: 0 20px;
+         list-style-type:none;
+        }
+    
